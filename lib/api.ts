@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:5000/api", // backend server
+    baseURL: "https://backend-ze6o.onrender.com/api", // backend server
 });
 
 // attach token
